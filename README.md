@@ -1,7 +1,7 @@
 # sales-with-revenue
 This dataset contains sales with revenue for an organization, providing comprehensive sales performance, revenue generated and units sold. The dataset is suitable for economic research and business driven insight task and designated for analysis, visualization and reporting. The dataset was gotten from kaggle through csv and it is for educational purpose to help practice and relate with real world dataset.
 In the process of analysing this dataset, I had some challenges but was able to solve them all. This dataset consist of 60 rows and 6 columns with no missing values and empty cells which makes it clean for visualization.
-Total revenue generated is 7,842,087.087(in monetary unit), total number of products returned base on some unknown factors is 29853, total products sold is 29855 and highest revenue was realized in the month of february. There is a positve relationship(increase in one led to increase in another) between total revenue, price_ per_unit, units_sold and is_returned like wise there is no relationship between price_ per_unit and is_returned and there is no negative relationship(all products were increasing and decreasing at equilibrium) between any column.
+Total revenue generated is 7,842,087.087(in monetary unit), total number of products returned base on some unknown factors is 29853, total products sold is 29855 and highest revenue was realized in the month of february. There is a positve relationship(increase in one led to increase in another) between total revenue, price_ per_unit, units_sold and is_returned like wise there is no relationship between price_ per_unit and is_returned and there is no or weak relationship(the variables do not have a predictable relationship) between other column.
 # Features:
 -Product_Category: category to which the products belongs.
 -Tota_ Revenue: total revenue generated from sales(in monetary unit).
@@ -18,7 +18,7 @@ Total revenue generated is 7,842,087.087(in monetary unit), total number of prod
 -sales are inconsistent in specific months and declining in others.
 -Some products are performing well while others are selling well.
 -Seasonal sales fluctuations.
--Some products categories have confusing confusing pricing strategies.
+-Some products categories have confusing pricing strategies.
 -decrease in units sold over time for specific products.
 # Problems:.
 -Lack of promotion during peak off season.
